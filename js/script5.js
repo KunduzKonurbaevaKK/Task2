@@ -7,5 +7,5 @@ let userCardNumber = prompt('Enter your credit card\'s number, please?');
 let chars= '************';
 let userCardNumberReplace = userCardNumber.replace(userCardNumber.slice(0, 12), chars);
 
-console.log(userCardNumberReplace);
+console.log('Your card number: ' + userCardNumberReplace);
 
